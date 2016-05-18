@@ -1,5 +1,8 @@
-import counter from './counter';
-
+import game from './game'
+import rooms from './room'
+import common from './common'
 export {
-  counter,
+  game,
+  rooms,
+  common
 };

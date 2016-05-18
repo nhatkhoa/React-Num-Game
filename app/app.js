@@ -1,10 +1,10 @@
-import React, {
+import {
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View
 } from 'react-native';
+import React, {Component} from 'react'
 import {Reducer, Router} from 'react-native-router-flux'
 import scenes from './core/router'
 import { createStore, applyMiddleware, combineReducers } from 'redux';

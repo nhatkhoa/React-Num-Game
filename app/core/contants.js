@@ -1,0 +1,15 @@
+export const GAME_ACTION = {
+  INIT: "INIT",
+  PICK_NUMBER: "PICK",
+  SHUFFLE: "SHUFFLE"
+}
+
+export const ROOM_ACTION = {
+  INIT: 'INIT_ROOM',
+  ADD: 'ADD_ROOM',
+  REMOVE: 'REMOVE_ROOM'
+}
+
+export const COMMON_ACTION = {
+  TONGLE_LOADING: 'TONGLE_LOADING',
+}
